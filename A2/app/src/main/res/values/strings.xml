@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Assignment 2: Glide Strikes Back</string>
+    <string name="msg_click">You liked %1$s food %2$d times!</string>
+    <string name="str_american">American</string>
+    <string name="str_chinese">Chinese</string>
+    <string name="str_indian">Indian</string>
+    <string name="str_italian">Italian</string>
+    <string name="str_mideast">Middle Eastern</string>
+    <string name="str_portuguese">Portuguese</string>
+    <string name="url_american">http://s14.postimg.org/w125psboh/american.png</string>
+    <string name="url_american_clicked">http://s14.postimg.org/3zo4c36e9/american_clicked.png</string>
+    <string name="url_chinese">http://s14.postimg.org/aigyp0ild/chinese.png</string>
+    <string name="url_chinese_clicked">http://s14.postimg.org/5vawn8v8h/chinese_clicked.png</string>
+    <string name="url_indian">http://s14.postimg.org/e8glhwug1/indian.jpg</string>
+    <string name="url_indian_clicked">http://s14.postimg.org/4rqsbaald/indian_clicked.png</string>
+    <string name="url_italian">http://s14.postimg.org/yq1jtk6jl/italian.png</string>
+    <string name="url_italian_clicked">http://s14.postimg.org/hbhbla9ep/italian_clicked.png</string>
+    <string name="url_mideast">http://s14.postimg.org/ihpwxtn35/middle_east.png</string>
+    <string name="url_mideast_clicked">http://s14.postimg.org/esvmklnoh/middle_east_clicked.png</string>
+    <string name="url_portuguese">http://s14.postimg.org/pyz4d1cm9/portuguese.png</string>
+    <string name="url_portuguese_clicked">http://s14.postimg.org/tsskm6ty9/portuguese_clicked.png</string>
+</resources>

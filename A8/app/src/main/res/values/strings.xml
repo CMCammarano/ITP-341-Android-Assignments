@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment 8: I ran out of Star Wars Puns</string>
+    <string name="label_placeholder">PLACEHOLDER</string>
+    <string name="button_add_note">Add</string>
+    <string name="label_edit_title">Title:</string>
+    <string name="button_save">Save</string>
+    <string name="button_delete">Delete</string>
+</resources>

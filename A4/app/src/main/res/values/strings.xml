@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment 4: The Phantom Tip</string>
+    <string name="label_bill">Bill For:</string>
+    <string name="label_percent">Percent:</string>
+    <string name="label_tip">Tip:</string>
+    <string name="label_total">Total:</string>
+    <string name="label_dropdown">Split Bill?:</string>
+    <string name="label_split">Per Person:</string>
+    <string name="label_placeholder">PLACEHOLDER</string>
+</resources>

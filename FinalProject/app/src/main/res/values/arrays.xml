@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_entries">
+        <item>Block</item>
+        <item>Event</item>
+        <item>Notification</item>
+    </string-array>
+
+    <string-array name="array_alerts">
+        <item>None</item>
+        <item>At time of event</item>
+        <item>5 minutes before</item>
+        <item>15 minutes before</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>2 hours before</item>
+    </string-array>
+</resources>

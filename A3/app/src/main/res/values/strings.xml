@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment 3: Return of the Layout</string>
+    <string name="text_title">Doge Clicker</string>
+    <string name="text_doge">Doge:</string>
+    <string name="text_initial_val">0</string>
+    <string name="text_human">Humans</string>
+    <string name="text_fireHydrant">Fire Hydrants</string>
+    <string name="text_treats">tr3@t$</string>
+    <string name="text_shoes">SHOES</string>
+    <string name="button_buy_human">Buy Human</string>
+    <string name="button_buy_treat">Buy Treat</string>
+    <string name="button_buy_hydrant">Buy Hydrant</string>
+    <string name="button_buy_shoe">Buy Shoe</string>
+    <string name="button_details">Details</string>
+    <string name="text_cost">Buy for </string>
+    <string name="text_message">Your %1$d %2$ss help to make %3$f doges per click!</string>
+</resources>

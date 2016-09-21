@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment 1: A New Button</string>
+    <string name="text_box_question">Hi! Are you ready for the greatest Android experience ever?</string>
+    <string name="button_yes">Yes!</string>
+    <string name="button_no">No!</string>
+    <string name="button_turnip">Turnip!</string>
+    <string name="toast_yes">Great! You will have to wait until the end of the semester! Clicks:</string>
+    <string name="toast_no">Aw, too bad! Clicks:</string>
+    <string name="toast_turnip">I too watch Linus Tech Tips. Clicks:</string>
+</resources>

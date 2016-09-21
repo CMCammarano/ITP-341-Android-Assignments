@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment 9: Civil War</string>
+    <string name="button_add_hero">Add Hero</string>
+    <string name="button_fight">Fight</string>
+    <string name="label_rankings">Rankings</string>
+    <string name="label_battle">Battle</string>
+    <string name="label_hero1">Hero #1</string>
+    <string name="label_hero2">Hero #2</string>
+    <string name="label_results">Results</string>
+
+    <string name="label_name">Name</string>
+    <string name="label_power1">Power #1</string>
+    <string name="label_power2">Power #2</string>
+    <string name="button_save">Save</string>
+</resources>

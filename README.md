@@ -1,2 +1,2 @@
-# ITP-341-Android-Assignments
-My repository for all of my ITP 341 assingments.
+# ITP 341 Android Assignments
+This repository contains each of my ITP 341 programming assignments, including New Day, my final project.

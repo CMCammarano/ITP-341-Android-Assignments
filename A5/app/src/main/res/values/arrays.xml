@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_split">
+        <item>1 way</item>
+        <item>2 ways</item>
+        <item>3 ways</item>
+        <item>4 ways</item>
+    </string-array>
+
+    <string-array name="spinner_currency">
+        <item>USD</item>
+        <item>Yuan</item>
+        <item>Euro</item>
+    </string-array>
+</resources>

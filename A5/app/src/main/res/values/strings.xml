@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Assignment 5: Attack of the Fragments</string>
+
+    <!-- GENERAL -->
+    <string name="button_tip">Tip</string>
+    <string name="button_metric">Unit</string>
+    <string name="button_money">Money</string>
+
+    <!-- TIP CALCULATOR -->
+    <string name="label_bill">Bill For:</string>
+    <string name="label_percent">Percent:</string>
+    <string name="label_tip">Tip:</string>
+    <string name="label_total">Total:</string>
+    <string name="label_dropdown">Split Bill?:</string>
+    <string name="label_split">Per Person:</string>
+    <string name="label_placeholder">PLACEHOLDER</string>
+
+    <!-- UNIT CONVERSIONS -->
+    <string name="rb_centimeters">Centimeters</string>
+    <string name="rb_meters">Meters</string>
+    <string name="rb_feet">Feet</string>
+    <string name="rb_miles">Miles</string>
+    <string name="rb_kilometers">Kilometers</string>
+
+    <!-- CURRENCY -->
+    <string name="label_from">From:</string>
+    <string name="label_to">To:</string>
+    <string name="label_result">Value:</string>
+    <string name="button_calculate">Calculate</string>
+</resources>

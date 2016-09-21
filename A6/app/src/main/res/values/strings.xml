@@ -1,0 +1,30 @@
+<resources>
+    <string name="text_game_name">Solve the Puzzle</string>
+    <string name="text_riddle_color">I am feeling %s.</string>
+    <string name="text_riddle_size">I want to be %s.</string>
+    <string name="text_riddle_name">My name is %s.</string>
+    <string name="button_room_color">Color</string>
+    <string name="button_room_name">Name</string>
+    <string name="button_room_size">Size</string>
+    <string name="button_submit">Solve</string>
+
+    <string name="app_name">Assignment 6: Revenge of the Intents</string>
+    <string name="text_r">R %d</string>
+    <string name="text_g">G %d</string>
+    <string name="text_b">B %d</string>
+    <string name="text_color_preview">Preview</string>
+    <string name="button_color_done">Set Changes</string>
+
+    <string name="text_name">What is my name?</string>
+    <string name="button_name_done">Set Changes</string>
+
+    <string name="text_size">Size:</string>
+    <string name="button_size_done">Set Changes</string>
+
+    <string name="color">blue</string>
+    <string name="size">big</string>
+    <string name="name">Mike</string>
+
+    <string name="text_end_win">CONGRATS!</string>
+    <string name="text_end_lose">Too bad!</string>
+</resources>

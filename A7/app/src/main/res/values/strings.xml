@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Assignment 7: The MVC Awakens</string>
+    <string name="text_title">Welcome to Spacedollars Coffee</string>
+    <string name="text_size">Size:</string>
+    <string name="radio_small">Tall</string>
+    <string name="radio_medium">Grande</string>
+    <string name="radio_large">Vente</string>
+    <string name="text_brew">Brew:</string>
+    <string name="text_sugar">Sugar:</string>
+    <string name="text_milk">Milk:</string>
+    <string name="text_extras">Extras:</string>
+    <string name="button_load">Load Favorite</string>
+    <string name="button_save">Save Favorite</string>
+    <string name="button_order">Order</string>
+    <string name="button_clear">Clear</string>
+    <string name="toast_saved">Order saved!</string>
+    <string name="toast_loaded">Order loaded!</string>
+    <string name="text_confirm_brew">%s</string>
+    <string name="text_confirm_size">(%s)</string>
+    <string name="text_confirm_addons">With: %s</string>
+    <string name="text_confirm_extras">Extras: %s</string>
+    <string name="text_confirm">Is this order correct?</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="toast_success">Thank you for your order!</string>
+    <string name="toast_failure">Please try again!</string>
+</resources>

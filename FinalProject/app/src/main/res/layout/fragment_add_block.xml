@@ -1,0 +1,284 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.fragments.AddBlockFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/login_input_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/edit_add_name"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:id="@+id/block_edit_name"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/label_time_start"
+                    android:id="@+id/block_label_start"
+                    android:layout_marginRight="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:id="@+id/block_button_start_date"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_marginRight="16dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:id="@+id/block_button_start_time"
+                    style="?android:attr/borderlessButtonStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/label_time_end"
+                    android:id="@+id/block_label_end"
+                    android:layout_marginRight="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:id="@+id/block_button_end_date"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_marginRight="16dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Button"
+                    android:id="@+id/block_button_end_time"
+                    style="?android:attr/borderlessButtonStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal">
+
+                <ToggleButton
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="4pt"
+                    android:textOn="@string/toggle_sun"
+                    android:textOff="@string/toggle_sun"
+                    android:text="New ToggleButton"
+                    android:id="@+id/block_sun_toggle"
+                    android:checked="false"/>
+
+                <ToggleButton
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="4pt"
+                    android:textOn="@string/toggle_mon"
+                    android:textOff="@string/toggle_mon"
+                    android:text="New ToggleButton"
+                    android:id="@+id/block_mon_toggle"
+                    android:checked="false"/>
+
+                <ToggleButton
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="4pt"
+                    android:textOn="@string/toggle_tues"
+                    android:textOff="@string/toggle_tues"
+                    android:text="New ToggleButton"
+                    android:id="@+id/block_tues_toggle"
+                    android:checked="false"/>
+
+                <ToggleButton
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="4pt"
+                    android:textOn="@string/toggle_wed"
+                    android:textOff="@string/toggle_wed"
+                    android:text="New ToggleButton"
+                    android:id="@+id/block_wed_toggle"
+                    android:checked="false"/>
+
+                <ToggleButton
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="4pt"
+                    android:textOn="@string/toggle_thurs"
+                    android:textOff="@string/toggle_thurs"
+                    android:text="New ToggleButton"
+                    android:id="@+id/block_thurs_toggle"
+                    android:checked="false"/>
+
+                <ToggleButton
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="4pt"
+                    android:textOn="@string/toggle_fri"
+                    android:textOff="@string/toggle_fri"
+                    android:text="New ToggleButton"
+                    android:id="@+id/block_fri_toggle"
+                    android:checked="false"/>
+
+                <ToggleButton
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="4pt"
+                    android:textOn="@string/toggle_sat"
+                    android:textOff="@string/toggle_sat"
+                    android:text="New ToggleButton"
+                    android:id="@+id/block_sat_toggle"
+                    android:checked="false"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/label_add_alert"
+                    android:id="@+id/block_label_alert"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="right">
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/array_alerts"
+                    android:id="@+id/block_spinner_alert"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/label_add_category"
+                    android:id="@+id/block_label_category"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="right">
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/block_spinner_category"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_submit"
+            android:id="@+id/block_button_submit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</FrameLayout>
